@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- *************************************************************** -->
+<!-- HEAD Section -->
+
+<head>
+
+    <title>Relax</title>
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!-- My Project CSS -->
+    <link rel="stylesheet" href="css/Final.css">
+
+    <link rel="icon" type="image/png" href="images/output-onlinepngtools-2.png">
+
+</head>
+
+<!-- *************************************************************** -->
+<!-- BODY Section -->
+
+<body id="topPage" data-spy="scroll" data-target=".navbar" data-offset="40">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+
+    <script>
+        var aAudio = new Audio('sound/sound1.mp3');
+        var bAudio = new Audio('sound/sound2.mp3');
+        var cAudio = new Audio('sound/sound3.mp3');
+        var dAudio = new Audio('sound/sound4.mp3');
+        var eAudio = new Audio('sound/sound5.mp3');
+        var fAudio = new Audio('sound/sound6.mp3');
+        var gAudio = new Audio('sound/sound7.mp3');
+        var hAudio = new Audio('sound/sound8.mp3');
+        var iAudio = new Audio('sound/sound9.mp3');
+        var y = "test";
+
+        function change1() {
+            var x = document.getElementById("buttontext1").innerHTML;
+            var image = document.getElementById("circle1");
+
+            if (y == "test") {
+                document.getElementById("buttontext1").innerHTML = "PAUSE ▐▐ ";
+                //image.src = "https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/pause-icon-18-256.png";
+                y = "test2";
+                aAudio.play();
+                bAudio.pause();
+                cAudio.pause();
+                dAudio.pause();
+                eAudio.pause();
+                fAudio.pause();
+                gAudio.pause();
+                hAudio.pause();
+                iAudio.pause();
+                $('#speaker2').css("opacity", 0);
+                $('#speaker3').css("opacity", 0);
+                $('#speaker4').css("opacity", 0);
+                $('#speaker5').css("opacity", 0);
+                $('#speaker6').css("opacity", 0);
+                $('#speaker7').css("opacity", 0);
+                $('#speaker8').css("opacity", 0);
+                $('#speaker9').css("opacity", 0);
+                $('#speaker').css("opacity", 1);
+                document.getElementById("buttontext2").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext3").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext4").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext5").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext6").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext7").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext8").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext9").innerHTML = "PLAY  ▶";
+            } else {
+                document.getElementById("buttontext1").innerHTML = "PLAY ▶";
+                //image.src = "https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/play-icon-18-256.png";
+                y = "test";
+                aAudio.pause();
+                $('#speaker').css("opacity", 0);
+                document.getElementById("buttontext2").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext3").innerHTML = "PLAY ▶";
+                document.getElementById("buttontext4").innerHTML = "PLAY ▶";
+                document.getElementById("buttontext5").innerHTML = "PLAY ▶";
+                document.getElementById("buttontext6").innerHTML = "PLAY ▶";
+                document.getElementById("buttontext7").innerHTML = "PLAY ▶";
+                document.getElementById("buttontext8").innerHTML = "PLAY ▶";
+                document.getElementById("buttontext9").innerHTML = "PLAY ▶";
+            }
+        }
+
+        function change2() {
+            var x = document.getElementById("buttontext2").innerHTML;
+            if (y == "test") {
+                document.getElementById("buttontext2").innerHTML = "PAUSE ▐▐ ";
+                y = "test2";
+                bAudio.play();
+                aAudio.pause();
+                cAudio.pause();
+                dAudio.pause();
+                eAudio.pause();
+                fAudio.pause();
+                gAudio.pause();
+                hAudio.pause();
+                iAudio.pause();
+                $('#speaker2').css("opacity", 1);
+                $('#speaker').css("opacity", 0);
+                $('#speaker3').css("opacity", 0);
+                $('#speaker4').css("opacity", 0);
+                $('#speaker5').css("opacity", 0);
+                $('#speaker6').css("opacity", 0);
+                $('#speaker7').css("opacity", 0);
+                $('#speaker8').css("opacity", 0);
+                $('#speaker9').css("opacity", 0);
+                document.getElementById("buttontext1").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext3").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext4").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext5").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext6").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext7").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext8").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext9").innerHTML = "PLAY  ▶";
+            } else {
+                document.getElementById("buttontext2").innerHTML = "PLAY  ▶";
+                y = "test";
+                bAudio.pause();
+                $('#speaker2').css("opacity", 0);
+                document.getElementById("buttontext1").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext3").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext4").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext5").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext6").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext7").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext8").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext9").innerHTML = "PLAY  ▶";
+            }
+        }
+
+        function change3() {
+            var x = document.getElementById("buttontext3").innerHTML;
+            if (y == "test") {
+                document.getElementById("buttontext3").innerHTML = "PAUSE ▐▐ ";
+                y = "test2";
+                cAudio.play();
+                aAudio.pause();
+                bAudio.pause();
+                dAudio.pause();
+                eAudio.pause();
+                fAudio.pause();
+                gAudio.pause();
+                hAudio.pause();
+                iAudio.pause();
+                $('#speaker3').css("opacity", 1);
+                $('#speaker2').css("opacity", 0);
+                $('#speaker').css("opacity", 0);
+                $('#speaker4').css("opacity", 0);
+                $('#speaker5').css("opacity", 0);
+                $('#speaker6').css("opacity", 0);
+                $('#speaker7').css("opacity", 0);
+                $('#speaker8').css("opacity", 0);
+                $('#speaker9').css("opacity", 0);
+                document.getElementById("buttontext2").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext1").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext4").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext5").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext6").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext7").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext8").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext9").innerHTML = "PLAY  ▶";
+            } else {
+                document.getElementById("buttontext3").innerHTML = "PLAY  ▶";
+                y = "test";
+                cAudio.pause();
+                $('#speaker3').css("opacity", 0);
+                document.getElementById("buttontext1").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext2").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext4").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext5").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext6").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext7").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext8").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext9").innerHTML = "PLAY  ▶";
+            }
+        }
+
+        function change4() {
+            var x = document.getElementById("buttontext4").innerHTML;
+            if (y == "test") {
+                document.getElementById("buttontext4").innerHTML = "PAUSE ▐▐ ";
+                y = "test2";
+                dAudio.play();
+                aAudio.pause();
+                bAudio.pause();
+                cAudio.pause();
+                eAudio.pause();
+                fAudio.pause();
+                gAudio.pause();
+                hAudio.pause();
+                iAudio.pause();
+                $('#speaker4').css("opacity", 1);
+                $('#speaker2').css("opacity", 0);
+                $('#speaker3').css("opacity", 0);
+                $('#speaker').css("opacity", 0);
+                $('#speaker5').css("opacity", 0);
+                $('#speaker6').css("opacity", 0);
+                $('#speaker7').css("opacity", 0);
+                $('#speaker8').css("opacity", 0);
+                $('#speaker9').css("opacity", 0);
+                document.getElementById("buttontext1").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext3").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext2").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext5").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext6").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext7").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext8").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext9").innerHTML = "PLAY  ▶";
+            } else {
+                document.getElementById("buttontext4").innerHTML = "PLAY  ▶";
+                y = "test";
+                dAudio.pause();
+                $('#speaker4').css("opacity", 0);
+                document.getElementById("buttontext1").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext3").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext2").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext5").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext6").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext7").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext8").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext9").innerHTML = "PLAY  ▶";
+
+            }
+        }
+
+        function change5() {
+            var x = document.getElementById("buttontext5").innerHTML;
+            if (y == "test") {
+                document.getElementById("buttontext5").innerHTML = "PAUSE ▐▐ ";
+                y = "test2";
+                eAudio.play();
+                aAudio.pause();
+                bAudio.pause();
+                dAudio.pause();
+                cAudio.pause();
+                fAudio.pause();
+                gAudio.pause();
+                hAudio.pause();
+                iAudio.pause();
+                $('#speaker5').css("opacity", 1);
+                $('#speaker2').css("opacity", 0);
+                $('#speaker3').css("opacity", 0);
+                $('#speaker4').css("opacity", 0);
+                $('#speaker').css("opacity", 0);
+                $('#speaker6').css("opacity", 0);
+                $('#speaker7').css("opacity", 0);
+                $('#speaker8').css("opacity", 0);
+                $('#speaker9').css("opacity", 0);
+                document.getElementById("buttontext2").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext3").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext4").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext1").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext6").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext7").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext8").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext9").innerHTML = "PLAY  ▶";
+            } else {
+                document.getElementById("buttontext5").innerHTML = "PLAY  ▶";
+                y = "test";
+                eAudio.pause();
+                $('#speaker5').css("opacity", 0);
+                document.getElementById("buttontext1").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext3").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext4").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext2").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext6").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext7").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext8").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext9").innerHTML = "PLAY  ▶";
+
+            }
+        }
+
+
+        function change6() {
+            var x = document.getElementById("buttontext6").innerHTML;
+            if (y == "test") {
+                document.getElementById("buttontext6").innerHTML = "PAUSE ▐▐ ";
+                y = "test2";
+                fAudio.play();
+                aAudio.pause();
+                bAudio.pause();
+                dAudio.pause();
+                cAudio.pause();
+                eAudio.pause();
+                gAudio.pause();
+                hAudio.pause();
+                iAudio.pause();
+                $('#speaker6').css("opacity", 1);
+                $('#speaker2').css("opacity", 0);
+                $('#speaker3').css("opacity", 0);
+                $('#speaker4').css("opacity", 0);
+                $('#speaker').css("opacity", 0);
+                $('#speaker5').css("opacity", 0);
+                $('#speaker7').css("opacity", 0);
+                $('#speaker8').css("opacity", 0);
+                $('#speaker9').css("opacity", 0);
+                document.getElementById("buttontext2").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext3").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext4").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext1").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext5").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext7").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext8").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext9").innerHTML = "PLAY  ▶";
+            } else {
+                document.getElementById("buttontext6").innerHTML = "PLAY  ▶";
+                y = "test";
+                fAudio.pause();
+                $('#speaker6').css("opacity", 0);
+                document.getElementById("buttontext1").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext3").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext4").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext2").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext5").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext7").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext8").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext9").innerHTML = "PLAY  ▶";
+
+            }
+        }
+
+
+
+        function change7() {
+            var x = document.getElementById("buttontext7").innerHTML;
+            if (y == "test") {
+                document.getElementById("buttontext7").innerHTML = "PAUSE ▐▐ ";
+                y = "test2";
+                gAudio.play();
+                aAudio.pause();
+                bAudio.pause();
+                dAudio.pause();
+                eAudio.pause();
+                fAudio.pause();
+                cAudio.pause();
+                hAudio.pause();
+                iAudio.pause();
+                $('#speaker7').css("opacity", 1);
+                $('#speaker2').css("opacity", 0);
+                $('#speaker3').css("opacity", 0);
+                $('#speaker4').css("opacity", 0);
+                $('#speaker5').css("opacity", 0);
+                $('#speaker6').css("opacity", 0);
+                $('#speaker').css("opacity", 0);
+                $('#speaker8').css("opacity", 0);
+                $('#speaker9').css("opacity", 0);
+                document.getElementById("buttontext2").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext3").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext4").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext5").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext6").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext1").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext8").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext9").innerHTML = "PLAY  ▶";
+            } else {
+                document.getElementById("buttontext7").innerHTML = "PLAY  ▶";
+                y = "test";
+                gAudio.pause();
+                $('#speaker7').css("opacity", 0);
+                document.getElementById("buttontext1").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext3").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext4").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext5").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext6").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext2").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext8").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext9").innerHTML = "PLAY  ▶";
+
+            }
+        }
+
+        function change8() {
+            var x = document.getElementById("buttontext8").innerHTML;
+            if (y == "test") {
+                document.getElementById("buttontext8").innerHTML = "PAUSE ▐▐ ";
+                y = "test2";
+                hAudio.play();
+                aAudio.pause();
+                bAudio.pause();
+                dAudio.pause();
+                eAudio.pause();
+                fAudio.pause();
+                gAudio.pause();
+                cAudio.pause();
+                iAudio.pause();
+                $('#speaker8').css("opacity", 1);
+                $('#speaker2').css("opacity", 0);
+                $('#speaker3').css("opacity", 0);
+                $('#speaker4').css("opacity", 0);
+                $('#speaker5').css("opacity", 0);
+                $('#speaker6').css("opacity", 0);
+                $('#speaker7').css("opacity", 0);
+                $('#speaker').css("opacity", 0);
+                $('#speaker9').css("opacity", 0);
+                document.getElementById("buttontext2").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext3").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext4").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext5").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext6").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext7").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext1").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext9").innerHTML = "PLAY  ▶";
+            } else {
+                document.getElementById("buttontext8").innerHTML = "PLAY  ▶";
+                y = "test";
+                hAudio.pause();
+                $('#speaker8').css("opacity", 0);
+                document.getElementById("buttontext1").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext3").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext4").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext5").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext6").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext7").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext2").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext9").innerHTML = "PLAY  ▶";
+
+            }
+        }
+
+        function change9() {
+            var x = document.getElementById("buttontext9").innerHTML;
+            if (y == "test") {
+                document.getElementById("buttontext9").innerHTML = "PAUSE ▐▐ ";
+                y = "test2";
+                iAudio.play();
+                aAudio.pause();
+                bAudio.pause();
+                dAudio.pause();
+                eAudio.pause();
+                fAudio.pause();
+                gAudio.pause();
+                hAudio.pause();
+                cAudio.pause();
+                $('#speaker9').css("opacity", 1);
+                $('#speaker2').css("opacity", 0);
+                $('#speaker3').css("opacity", 0);
+                $('#speaker4').css("opacity", 0);
+                $('#speaker5').css("opacity", 0);
+                $('#speaker6').css("opacity", 0);
+                $('#speaker7').css("opacity", 0);
+                $('#speaker8').css("opacity", 0);
+                $('#speaker1').css("opacity", 0);
+                document.getElementById("buttontext2").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext3").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext4").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext5").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext6").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext7").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext8").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext1").innerHTML = "PLAY  ▶";
+            } else {
+                document.getElementById("buttontext9").innerHTML = "PLAY  ▶";
+                y = "test";
+                iAudio.pause();
+                $('#speaker9').css("opacity", 0);
+                document.getElementById("buttontext1").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext3").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext4").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext5").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext6").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext7").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext8").innerHTML = "PLAY  ▶";
+                document.getElementById("buttontext2").innerHTML = "PLAY  ▶";
+            }
+        }
+    </script>
+
+    <script>
+
+
+        jQuery(function() {
+    var header = $(".navbar");
+    jQuery(window).scroll(function() {    
+        var scroll = jQuery(window).scrollTop()-460;
+        if (scroll >= 2) {
+            header.addClass("scrolled");
+        } else {
+            header.removeClass("scrolled");
+        }
+    });
+  
+}); 
+    
+        
+    
+    jQuery(document).ready(function($){
+  
+  window.onload = function (){
+    $(".bts-popup").delay(1000).addClass('is-visible');
+	}
+  
+	//open popup
+	$('.bts-popup-trigger').on('click', function(event){
+		event.preventDefault();
+		$('.bts-popup').addClass('is-visible');
+	});
+	
+	//close popup
+	$('.bts-popup').on('click', function(event){
+		if( $(event.target).is('.bts-popup-close') || $(event.target).is('.bts-popup') ) {
+			event.preventDefault();
+			$(this).removeClass('is-visible');
+		}
+	});
+	//close popup when clicking the esc keyboard button
+	$(document).keyup(function(event){
+    	if(event.which=='27'){
+    		$('.bts-popup').removeClass('is-visible');
+	    }
+    });
+});</script>
+
+    <script>
+
+        function inIframe() {
+    try {
+        return window.self !== window.top;
+    } catch (e) {
+        return true;
+    }
+}
+
+		var colors = [
+			'#490A3D',
+			'#BD1550',
+			'#E97F02',
+			'#F8CA00',
+			'#8A9B0F',
+			'#69D2E7',
+			'#FA6900',
+			'#16a085',
+			'#27ae60',
+			'#2c3e50',
+			'#f39c12',
+			'#e74c3c',
+			'#9b59b6',
+			'#FB6964',
+			'#342224',
+			'#472E32',
+			'#77B1A9',
+			'#73A857'
+		];
+
+var quotes = [
+    ["I’ve decided to be happy because it is good for my health.","Voltaire"],
+    ["Tension is who you think you should be. Relaxation is who you are.","Chinese Proverb"],
+    ["It is nice finding that place where you can just go and relax.","Moises Arias"],
+	["Sometimes the most important thing in a whole day is the rest we take between two deep breaths.","Etty Hillesum"],
+	["How beautiful it is to do nothing, and then to rest afterward.","Spanish Proverb"],
+	["There is more to life than increasing its speed.","Mahatma Gandhi"],
+	["Silence is the element in which great things fashion themselves together.","Chris Bradford"],
+	["Nothing can bring you peace but yourself.","Ralph Waldo Emerson"],
+	];
+
+var currentQuote = "";
+var currentAuthor = "";
+var randomquote = "";
+var randomcolor = "";
+
+function getQuote() {
+	randomquote = Math.floor(Math.random() * quotes.length);
+	randomcolor = Math.floor(Math.random() * colors.length);
+    currentQuote = quotes[randomquote][0];
+    currentAuthor = quotes[randomquote][1];
+	
+
+	$(document).ready(function () {
+	    $('html body').animate({
+	        backgroundColor: colors[randomcolor],
+	        color: colors[randomcolor]
+	    }, 500);
+			$('blockquote footer').animate({ color: colors[randomcolor] }, 500);	
+	    $('blockquote').animate({ borderLeftColor: colors[randomcolor] }, 500);
+	    $('#quotetext').animate({ opacity: 0 }, 500, function () {
+	        $(this).animate({ opacity: 1 }, 500);
+	        $(this).text(currentQuote);
+	    });
+	    $('#quotesource').animate({ opacity: 0 }, 500, function () {
+	        $(this).animate({ opacity: 1 }, 500);
+	        $(this).text(currentAuthor);
+	    });
+    });    
+}
+
+getQuote();
+        
+        </script>
+    <script>
+
+
+
+        (function ($) {
+    "use strict";
+
+
+    /*==================================================================
+    [ Validate ]*/
+    var input = $('.validate-input .input100');
+
+    $('.validate-form').on('submit', function () {
+        var check = true;
+
+        for (var i = 0; i < input.length; i++) {
+            if (validate(input[i]) == false) {
+                showValidate(input[i]);
+                check = false;
+            }
+        }
+
+        return check;
+    });
+
+
+    $('.validate-form .input100').each(function () {
+        $(this).focus(function () {
+            hideValidate(this);
+        });
+    });
+
+    function validate(input) {
+        if ($(input).attr('type') == 'email' || $(input).attr('name') == 'email') {
+            if ($(input).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
+                return false;
+            }
+        } else {
+            if ($(input).val().trim() == '') {
+                return false;
+            }
+        }
+    }
+
+    function showValidate(input) {
+        var thisAlert = $(input).parent();
+
+        $(thisAlert).addClass('alert-validate');
+    }
+
+    function hideValidate(input) {
+        var thisAlert = $(input).parent();
+
+        $(thisAlert).removeClass('alert-validate');
+    }
+
+
+
+})(jQuery);
+
+
+</script>
+
+
+    <div id="element-with-background-image">
+        <div id="color-overlay"></div>
+        <div class="padding1">
+            <h1 class="relax">UNWIND</h1>
+        </div>
+        <nav class="navbar navbar-expand-sm fixed-top navbar-dark">
+            <a class="navbar-brand unwindtext" href="home.html">UNWIND</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar1">
+                <nav role='navigation'>
+                    <div id="menuToggle">
+                        <input type="checkbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                        <ul id="menu">
+
+                            <a href="home.html">
+                                <li class="text5"> <a class="nav-link text2" href="home.html">HOME</a>
+                                </li>
+                            </a>
+                            <a href="finalHCI.html">
+                                <li class="text5"> <a class="nav-link active text2" href="finalHCI.html">RELAX</a>
+                                </li>
+                            </a>
+                            <a href="guided.html">
+                                <li class="text5"> <a class="nav-link text2" href="guided.html">BREATHE</a>
+                                </li>
+                            </a>
+                            <a class="text5">
+                                <div class="centertext">
+                                    <div class="dropdown">
+                                        <button class="dropbtn">IC RESOURCES
+                                            <i class="fa fa-caret-down"></i>
+                                        </button>
+                                        <div class="dropdown-content">
+                                          <a class="text5" href="https://www.ithaca.edu/sacl/counseling/">CAPS</a>
+                                        <a class="text5" href="Self_Care.html">Self-care</a>
+                                        <a class="text5" href="Friends.html">Friends </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+    </div>
+
+    <section id="Section1">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="test">
+                        <div class="container">
+                            <div class="card1" class="card">
+                                <img class="image" src="images/pic7.jpg" alt="Card image cap">
+                                <div class="middle" onclick="change1()">
+                                    <a class="textPlay">"Guided Meditation"</a>
+                                    <div id="buttontext1" class="text">PLAY ▶</div>
+                                </div>
+                                <img id="speaker" src="images/speaker.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="test">
+                        <div class="container">
+                            <div class="card1" class="card">
+                                <img class="image" src="images/pic2.jpg" alt="Card image cap">
+                                <div class="middle" onclick="change2()">
+                                    <a class="textPlay">"Mystic Sounds"</a>
+                                    <div id="buttontext2" class="text">PLAY ▶ <img class="play" src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/play-icon-18-256.png"></div>
+                                </div>
+                            </div>
+                            <img id="speaker2" src="images/speaker.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="test">
+                        <div class="container">
+                            <div class="card1" class="card">
+                                <img class="image" src="images/pic1.jpg" alt="Card image cap">
+                                <div class="middle" onclick="change3()">
+                                    <a class="textPlay">"Sounds of Nature"</a>
+                                    <div id="buttontext3" class="text">PLAY ▶ <img class="play" src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/play-icon-18-256.png"></div>
+                                </div>
+                            </div>
+                            <img id="speaker3" src="images/speaker.png" alt="Card image cap">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="test">
+                        <div class="container">
+                            <div class="card1" class="card">
+                                <img class="image" src="images/pic6.jpg" alt="Card image cap">
+                                <div class="middle" onclick="change4()">
+                                    <a class="textPlay">"Chinese bamboo flute"</a>
+                                    <div id="buttontext4" class="text">PLAY ▶ <img class="play" src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/play-icon-18-256.png"></div>
+                                </div>
+                                <img id="speaker4" src="images/speaker.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="test">
+                        <div class="container">
+                            <div class="card1" class="card">
+                                <img class="image" src="images/pic10.jpg" alt="Card image cap">
+                                <div class="middle" onclick="change5()">
+                                    <a class="textPlay">"Guitar sounds"</a>
+                                    <div id="buttontext5" class="text">PLAY ▶ <img class="play" src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/play-icon-18-256.png"></div>
+                                </div>
+                            </div>
+                            <img id="speaker5" src="images/speaker.png">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+                    <div class="test">
+                        <div class="container">
+                            <div class="card1" class="card">
+                                <img class="image" src="images/pic9.jpg" alt="Card image cap">
+                                <div class="middle" onclick="change6()">
+                                    <a class="textPlay">"Spring"</a>
+                                    <div id="buttontext6" class="text">PLAY ▶<img class="play" src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/play-icon-18-256.png"></div>
+                                </div>
+                            </div>
+                            <img id="speaker6" src="images/speaker.png" alt="Card image cap">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="test">
+                        <div class="container">
+                            <div class="card1" class="card">
+                                <img class="image" src="images/pic4.jpg" alt="Card image cap">
+                                <div class="middle" onclick="change7()">
+                                    <a class="textPlay">"Dusk"</a>
+                                    <div id="buttontext7" class="text">PLAY ▶<img class="play" src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/play-icon-18-256.png"></div>
+                                </div>
+                                <img id="speaker7" src="images/speaker.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="test">
+                        <div class="container">
+                            <div class="card1" class="card">
+                                <img class="image" src="images/pic8.jpg" alt="Card image cap">
+                                <div class="middle" onclick="change8()">
+                                    <a class="textPlay">"Floral Medley"</a>
+                                    <div id="buttontext8" class="text">PLAY ▶ <img class="play" src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/play-icon-18-256.png"></div>
+                                </div>
+                            </div>
+                            <img id="speaker8" src="images/speaker.png">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+                    <div class="test">
+                        <div class="container">
+                            <div class="card1" class="card">
+                                <img class="image" src="images/pic3.jpg" alt="Card image cap">
+                                <div class="middle" onclick="change9()">
+                                    <a class="textPlay">"Hindustani"</a>
+                                    <div id="buttontext9" class="text">PLAY ▶<img class="play" src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/play-icon-18-256.png"></div>
+                                </div>
+                            </div>
+                            <img id="speaker9" src="images/speaker.png" alt="Card image cap">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section id="Section8">
+
+
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+
+                <form class="validate-form">
+                    <span class="login100-form-title">
+                        Log-in using NetID
+                    </span>
+
+                    <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                        <input class="input100" type="text" name="email" placeholder="Email">
+                        <span class="focus-input100"></span>
+                        <span class="symbol-input100">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input" data-validate="Password is required">
+                        <input class="input100" type="password" name="pass" placeholder="Password">
+                        <span class="focus-input100"></span>
+                        <span class="symbol-input100">
+                            <i class="fa fa-lock" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="text-center p-t-12">
+                        <span class="txt1">
+                            Forgot
+                        </span>
+                        <a class="txt2" href="#">
+                            Username / Password?
+                        </a>
+                    </div>
+
+                    <div class="container-login100-form-btn">
+                        <div class="text9">
+                            <button class="slide left button2" onclick="window.location.href='finalHCI.html'">&nbsp;</button>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-3"></div>
+        </div>
+
+        <div class="foottext6">
+            <div class="footer-social-links">
+                <a href="#" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="#" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="#" title="Google+" target="_blank"><i class="fa fa-google-plus"></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <p class="footText">
+                    Copyright © 2018 by Unwind. All Rights Reserved
+                </p>
+            </div>
+
+            <div class="col-6">
+                <p class="footText3">
+                    <a href="home.html"> <img src="images/logo3.png" class="logo1"></a>
+                </p>
+            </div>
+        </div>
+
+        <div class="bts-popup" role="alert">
+            <div class="bts-popup-container">
+                <div class="card2">
+                    <a href="#0" class="bts-popup-close img-replace">Close</a>
+                    <h2 id="quotetext"></h2>
+                    <footer id="quotesource"></footer>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
