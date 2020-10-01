@@ -102,6 +102,12 @@ Indeed, our website was able to get a lot of positive feedback from our particip
 
 Many of our participants don't really know how to use there netID to log into the site, as our log-in form is not working at this moment and we would love to make it work in the future when we gain some knowledge of database systems. Our website would become a lot more usable. This is major thing missing from our website as we need the netId to be able to use the mood tracker. We were able to see the frustrations on people’s faces as they tried to use the log-in form, which is in non-workable condition right now.
 
+# BUILT WITH 
+* [HTML](https://en.wikipedia.org/wiki/HTML) 
+* [Javascript](https://www.javascript.com/) 
+* [jQuery](https://jquery.com/)
+* [CSS](https://www.w3schools.com/css/)
+
 # CONTRIBUTIONS
 
 * **Isha Sharma**
@@ -109,15 +115,15 @@ Many of our participants don't really know how to use there netID to log into th
 
 ### "Want To Be More Productive? Listen To The Sounds Of Nature”. Fast Company, July, 2015. [Sneed, Annie.](https://www.fastcompany.com/3047398/want-to-be-more-productive-listen-to-the-sounds-of-nature) 
 
-### “5 Reasons Why We Should Practice Deep Breathing”, Mind Body Green, [Scarbro, Denise] (https://www.mindbodygreen.com/0-5018/5-Reasons-Why-We-Should-Practice-Deep-Breathing.html)	
+### “5 Reasons Why We Should Practice Deep Breathing”, Mind Body Green, [Scarbro, Denise](https://www.mindbodygreen.com/0-5018/5-Reasons-Why-We-Should-Practice-Deep-Breathing.html )	
 
-### “Why Nature Sounds Help You Relax, According to Science”, health.com, April 05, 2017, [MacMillan, Amanda] (https://www.health.com/stress/why-nature-sounds-are-relaxing)
+### “Why Nature Sounds Help You Relax, According to Science”, health.com, April 05, 2017, [MacMillan, Amanda](https://www.health.com/stress/why-nature-sounds-are-relaxing)
 
-### 11 Aug 2014, “The power of pictures. How we can use images to promote and communicate science”, BMC, [Balm, James.] (http://blogs.biomedcentral.com/bmcblog/2014/08/11/the-power-of-pictures-how-we-can-use-images-to-promote-and-communicate-science/)
+### 11 Aug 2014, “The power of pictures. How we can use images to promote and communicate science”, BMC, [Balm, James.](http://blogs.biomedcentral.com/bmcblog/2014/08/11/the-power-of-pictures-how-we-can-use-images-to-promote-and-communicate-science/)
 
-### “7 Essential Ways That Inspirational Quotes Can Literally Change Your Day …and Your Life!”, Lifehack, [Belmont, Judy.] (https://www.lifehack.org/articles/communication/7-essential-ways-that-inspirational-quotes-can-literally-change-your-day-and-your-life.html)
+### “7 Essential Ways That Inspirational Quotes Can Literally Change Your Day …and Your Life!”, Lifehack, [Belmont, Judy.](https://www.lifehack.org/articles/communication/7-essential-ways-that-inspirational-quotes-can-literally-change-your-day-and-your-life.html)
 
-### “What are the Solfeggio frequencies?”, [Attuned Vibrations] (https://attunedvibrations.com/solfeggio/)	
+### “What are the Solfeggio frequencies?”, [Attuned Vibrations](https://attunedvibrations.com/solfeggio/)	
 
 # Authors
 
