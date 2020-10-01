@@ -102,6 +102,13 @@ Indeed, our website was able to get a lot of positive feedback from our particip
 
 Many of our participants don't really know how to use there netID to log into the site, as our log-in form is not working at this moment and we would love to make it work in the future when we gain some knowledge of database systems. Our website would become a lot more usable. This is major thing missing from our website as we need the netId to be able to use the mood tracker. We were able to see the frustrations on people’s faces as they tried to use the log-in form, which is in non-workable condition right now.
 
+# MOCKUPS
+![mk](imgs/mockup1.png)
+![mk](imgs/mk.png)
+![mk](imgs/mk3.png)
+![mk](imgs/mk4.png)
+![mk](imgs/mk5.png)
+
 # BUILT WITH 
 * [HTML](https://en.wikipedia.org/wiki/HTML) 
 * [Javascript](https://www.javascript.com/) 
