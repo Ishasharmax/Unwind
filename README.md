@@ -1,6 +1,6 @@
 # Unwind
 
-![logo](R_Images/ambient.png)
+![logo](images/logo3.png)
 
 # TABLE OF CONTENTS
 
@@ -38,7 +38,7 @@ One of the reasons why we thought of making something like this is because we bo
 
 # MOOD-BOARD
 
-![logo](R_Images/ambient.png)
+![logo](imgs/mb.png)
 
 Here is a picture of our mood-board, which depicts the vibe of our website. It has calming nature and relaxing pictures which complements our website. It includes the color scheme and the fonts we used. We have a lady doing meditation, which tells the user that our website has to do something with meditation and yoga. We strived to make our site as similar as possible to the mood-board as we really thought this mood-board is very relaxing and energizing. This mood-board has a little sound icon which depicts that our site has to do something with the sounds, which indeed is one of the dominant features of our website. Mostly, we wanted to make our site very soothing and easy on eyes that's the reason why we used cool colors, instead of pop and bold ones. We have a tinge of yellow which complements the IC blue. We also used the logo of the Ithaca college as we intended making it for IC students in particular as for now. We could make it public but we thought of starting it off small and spreading it wide, like any other service out there.
 
@@ -46,24 +46,26 @@ Here is a picture of our mood-board, which depicts the vibe of our website. It h
 
 ## Persona 1
 
-![logo](R_Images/ambient.png)
+![per](imgs/per1.png)
 
 One of our personas is Donna Clarke, who is an introverted Computer science major. She usually finds herself anxious in most of the situations. She is not very boisterous and doesn't really share her thoughts and ideas with anyone. However, she loves music and wants to find a way through which she can listen to music and relax. She is fond of nature also, but can’t be around nature all the time in Ithaca because of the fickle and extreme weather. She would love to have a service that could help her reduce the stress and anxiety, as well as, help her concentrate on her stuff. She believes meditation could be one such way to gain ability to focus more, but she isn't sure what might be a good option for her that could do everything she really wants. She would really like the Unwind app as it would enable her to do everything she desires while being less anxious.
 
 ## Persona 2
 
-![logo](R_Images/ambient.png)
+![per](imgs/per2.png)
 
 ## Persona 3
 
-![logo](R_Images/ambient.png)
+![per](imgs/per3.png)
 
 # WIREFRAMES
 
-![logo](R_Images/ambient.png)
-![logo](R_Images/ambient.png)
-![logo](R_Images/ambient.png)
-![logo](R_Images/ambient.png)
+![wf](imgs/wf.png)
+![wf](imgs/wf1.png)
+![wf](imgs/wf2.png)
+![wf](imgs/wf3.png)
+![wf](imgs/wf4.png)
+![wf](imgs/wf5.png)
 
 The reason why we have used these wireframes is that they look very professional as well as are not very chaotic. They have that look of a professional as well as relaxing website, which doesn't comprise of irrelevant noisy information that could clutter our users’ visuals. We wanted a sleek and minimal website with relevant information and visuals, as well as with prominent buttons and forms, which could be used by anyone. We tried to make this website as accessible as possible, but if we had more time we could have made it more different user-friendly, special for the people who are visually impaired. 
 
