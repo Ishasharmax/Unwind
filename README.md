@@ -61,7 +61,6 @@ One of our personas is Donna Clarke, who is an introverted Computer science majo
 # WIREFRAMES
 
 ![wf](imgs/wf.png)
-![wf](imgs/wf1.png)
 ![wf](imgs/wf2.png)
 ![wf](imgs/wf3.png)
 ![wf](imgs/wf4.png)
