@@ -46,17 +46,17 @@ Here is a picture of our mood-board, which depicts the vibe of our website. It h
 
 ## Persona 1
 
-![per](imgs/per1.png)
+![per](imgs/donna.png)
 
 One of our personas is Donna Clarke, who is an introverted Computer science major. She usually finds herself anxious in most of the situations. She is not very boisterous and doesn't really share her thoughts and ideas with anyone. However, she loves music and wants to find a way through which she can listen to music and relax. She is fond of nature also, but can’t be around nature all the time in Ithaca because of the fickle and extreme weather. She would love to have a service that could help her reduce the stress and anxiety, as well as, help her concentrate on her stuff. She believes meditation could be one such way to gain ability to focus more, but she isn't sure what might be a good option for her that could do everything she really wants. She would really like the Unwind app as it would enable her to do everything she desires while being less anxious.
 
 ## Persona 2
 
-![per](imgs/per2.png)
+![per](imgs/Erica.png)
 
 ## Persona 3
 
-![per](imgs/per3.png)
+![per](imgs/Alex.png)
 
 # WIREFRAMES
 
